@@ -1,5 +1,8 @@
 Error 1:
+Cambié la propiedad "align-content" a "justify-content", porque "align-content" especifica el tipo de alineación de líneas (varias líneas), y tenemos una línea y no habrá resultado.
 
 Error 2:
+Las sangrías de los “padding”están configuradas incorrectamente, las sangrías en todos los lados son iguales, pero arriba y abajo deben tener un valor, derecha e izquierda deben ser otro (más que arriba y abajo).
 
 Error 3: 
+"navigation__link" debería ser un selector de clase y seleccionar todo en el documento HTML al que se aplica esta clase, y era el selector "id". No había elementos en el documento HTML a los que se les aplicara una "id".
