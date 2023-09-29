@@ -15,7 +15,10 @@ body {
 .navigation {
     margin-top: 5rem;
     display: flex;
-    align-content: space-between;
+    
+    /*align-content: space-between;*/    /* Error 1 */
+    justify-content: space-between;
+
     background-color: #0aa1dd;
     padding: 0.5rem;
     border-radius: 4rem;
