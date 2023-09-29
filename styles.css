@@ -27,7 +27,7 @@ body {
     border-radius: 4rem;
 }
 
-#navigation__link {
+.navigation__link {         /* Error 3 */ 
     color: white;
     text-decoration: none;
     border-radius: 3rem;
